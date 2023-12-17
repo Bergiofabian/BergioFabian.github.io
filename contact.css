@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+}
+
+header, nav, main, aside, footer {
+    padding: 20px;
+}
+
+header{
+    width: 904px;
+    height: 400px;
+    text-align: center;
+    background-color: blueviolet;
+    background-image: url(images/hmsh.png);
+    background-size: 100% 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav {
+    width: 904px;
+    background-color: #0063f7;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    padding: 0%;
+}
+
+nav li {
+    margin-right: 50px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;       
+    padding: 10px;
+}
+
+nav a:hover {
+    color: #ddd;
+}
+
+main {
+    width: 904px;
+    height: 400px;
+    background-color: #a0a762;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    text-align: center;
+}
+
+h3 {
+    font-size: 4rem;
+}
+
+h4 {
+    font-size: 2rem;
+}
+
+.sidebar{
+    position: fixed;
+    left: 0%;
+    width: 210px;
+    height: 100%;
+    background-color: black;
+}
+
+.sidebar {
+    width: 100px; 
+    padding: 52px;
+    background-color: #f50000; 
+    position: fixed; 
+    top: 0;
+    left: 0;
+    bottom: 0;
+    overflow-x: hidden; 
+   }
+
+   .sidebar-right{
+    position: fixed;
+    right: 0%;
+    width: 210px;
+    height: 100%;
+    background-color: black;
+}
+
+.sidebar-right {
+    width: 100px; 
+    padding: 52px;
+    background-color: #ff0000; 
+    position: fixed; 
+    top: 0;
+    right: 0;
+    bottom: 0;
+    overflow-x: hidden;
+   }
+
+   section {
+    flex: 1;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056B3;
+}
+
+footer {
+    width: 904px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: #a0a0a0;
+}
